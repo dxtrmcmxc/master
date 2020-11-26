@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_heavy.woff2) format("woff2"), url(/static/catch/fonts/biennale_heavy.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_black.woff2) format("woff2"), url(/static/catch/fonts/biennale_black.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_black.woff2) format("woff2"), url(/static/catch/fonts/biennale_black.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_semibold.woff2) format("woff2"), url(/static/catch/fonts/biennale_semibold.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_semibold.woff2) format("woff2"), url(/static/catch/fonts/biennale_semibold.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_semibold.woff2) format("woff2"), url(/static/catch/fonts/biennale_semibold.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+@font-face {
+    font-family: Biennale;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/static/catch/fonts/biennale_regular.woff2) format("woff2"), url(/static/catch/fonts/biennale_regular.woff) format("woff");
+    unicode-range: U+000-5FF;
+}
+
+  body {
+    font-family: Biennale !important;
+    font-style: normal;
+    font-weight: 100; 
+}
+
+  .schema-faq-code {
+    border: 1px solid #dedee0;
+    border-radius: 10px;
+    background-color:#fefbf9;
+      overflow:hidden;
+    }
+    .faq-question {
+        background-color: #0064E4;
+    }
+    .schema-faq-code .faq-q {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 12px 56px 12px 12px;
+    line-height: 1.4;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #dedee0;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    }
+    .faq-q:after {
+        content: "+";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 56px;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+    }
+    .faq-q.faq-q-open:after {
+        content: "-";	
+    }
+    .faq-a {
+    margin: 0;
+    padding: 12px;
+    background-color:#fff;
+    font-size: .892rem;
+    line-height: 1.4;
+    border-bottom: 1px solid #dedee0;
+    display: none;
+    color: #000;
+    }
+    .schema-faq-code .faq-question:last-child .faq-a {
+      border-bottom:0px;
+    }
